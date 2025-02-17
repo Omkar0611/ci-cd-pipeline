@@ -125,15 +125,18 @@ a. Choose New service role to allow CodePipeline to create a new service role in
 
 Congratulations! You just created a simple pipeline in CodePipeline. The pipeline has
 two stages:
+
 ● A source stage named Source, which detects changes in the versioned sample
 application stored in the S3 bucket and pulls those changes into the pipeline.
+
 ● A Deploy stage that deploys those changes to EC2 instances with CodeDeploy
 to verify the run status
-go to the ec2 instance and copy the instance public ipv4 address and paste it on browser
 
-![image](https://github.com/user-attachments/assets/ca00b74b-3ae4-4110-b202-651e0b1714e2)
+Go to the ec2 instance and copy the instance public ipv4 address and paste it on browser
 
 
+
+![image](https://github.com/user-attachments/assets/de39420e-a979-498b-9761-683ce22d13bd)
 
 
 
